@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="text/javascript" src="etc/lib/jquery-1.9.1.min.js"></script>
+
+    <script src="etc/lib/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js"></script>
+    <script src="etc/lib/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js"></script>
+    <script src="etc/lib/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js"></script>
+    <script src="etc/lib/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.draggable.js"></script>
+
+    <script src="etc/lib/sliderNumber.js"></script>
+
+    <link rel="stylesheet" href="etc/css/el/select-slider.css">
+    <script>
+      $(document).ready(function() {
+        $('.create-new').selectSlider();
+      });
+    </script>
+  </head>
+  <body>
+    <style>
+      .ezampl-box{
+        width: 315px;
+        margin: 150px auto;
+      }
+    </style>
+    <div class="ezampl-box">
+
+      <div class="select-slider" id="exampl-select-slider">
+        <div class="ss-item ss-active">
+          <div class="ss-label">0</div>
+          <div class="ss-line"></div>
+        </div>
+        <div class="ss-item ss-active">
+          <div class="ss-label">1</div>
+          <div class="ss-line"></div>
+        </div>
+        <div class="ss-item ss-active">
+          <div class="ss-label">2</div>
+          <div class="ss-line"></div>
+        </div>
+        <div class="ss-item ss-hover">
+          <div class="ss-label">3</div>
+          <div class="ss-line">
+          </div>
+        </div>
+        <div class="ss-selector"></div>
+        <div class="ss-item">
+          <div class="ss-label">4</div>
+          <div class="ss-line"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="ezampl-box">
+      <input class="create-new" type="number" value="5"/>
+    </div>
+
+    <div class="ezampl-box">
+      <input class="create-new" type="number" value="3"/>
+    </div>
+
+  </body>
+</html>
